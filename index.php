@@ -16,8 +16,8 @@
 		$mail->Host = 'smtp.gmail.com';
 		$mail->Port = 587;
 		$mail->SMTPSecure = 'tls';
-		$mail->Username = 'enes.dumann97@gmail.com';
-		$mail->Password = '13791379dumann';
+		$mail->Username = '';
+		$mail->Password = '';
 		$mail->SetFrom($mail->Username, $adsoyad);
 		$mail->AddAddress($mail->Username, $adsoyad);
 		$mail->CharSet = 'UTF-8';
